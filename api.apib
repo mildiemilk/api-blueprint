@@ -1,0 +1,18 @@
+# Message Service
+## Message Collection [/messages]
+### POST Messages Collection [POST]
++ Request when logged in (text/plain)
+  + Headers
+      Authorization: Bearer ....
+  + Body
+      Hello Request!
++ Response 200 (text/plain)
+    + Headers
+      Cache-Control: max-age=86400
+  + Body
+      Hello Response!
++ Request when not log in (text/plain)
+  + Body
+      Hello Request!
++ Response 401 (text/plain)
+      Auth fail!

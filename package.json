@@ -1,0 +1,16 @@
+{
+  "name": "api-bluprint-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "doc": "aglio -i api.apib -s",
+    "mock": "drakov -f api.apib"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aglio": "^2.3.0",
+    "drakov": "^1.0.4"
+  }
+}
